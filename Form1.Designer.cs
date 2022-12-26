@@ -53,7 +53,7 @@
             // 
             this.sum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.sum.Font = new System.Drawing.Font("Elephant", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.sum.Location = new System.Drawing.Point(430, 128);
+            this.sum.Location = new System.Drawing.Point(374, 124);
             this.sum.Name = "sum";
             this.sum.Size = new System.Drawing.Size(82, 118);
             this.sum.TabIndex = 0;
@@ -65,7 +65,7 @@
             // 
             this.sum1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.sum1.Font = new System.Drawing.Font("Elephant", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.sum1.Location = new System.Drawing.Point(518, 129);
+            this.sum1.Location = new System.Drawing.Point(462, 125);
             this.sum1.Name = "sum1";
             this.sum1.Size = new System.Drawing.Size(82, 120);
             this.sum1.TabIndex = 4;
@@ -77,7 +77,7 @@
             // 
             this.sum2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.sum2.Font = new System.Drawing.Font("Elephant", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.sum2.Location = new System.Drawing.Point(430, 238);
+            this.sum2.Location = new System.Drawing.Point(374, 234);
             this.sum2.Name = "sum2";
             this.sum2.Size = new System.Drawing.Size(82, 119);
             this.sum2.TabIndex = 5;
@@ -89,7 +89,7 @@
             // 
             this.sum3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.sum3.Font = new System.Drawing.Font("Elephant", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.sum3.Location = new System.Drawing.Point(518, 239);
+            this.sum3.Location = new System.Drawing.Point(462, 235);
             this.sum3.Name = "sum3";
             this.sum3.Size = new System.Drawing.Size(82, 118);
             this.sum3.TabIndex = 6;
@@ -101,7 +101,7 @@
             // 
             this.ANS.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ANS.Font = new System.Drawing.Font("Ebrima", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ANS.Location = new System.Drawing.Point(220, 72);
+            this.ANS.Location = new System.Drawing.Point(164, 68);
             this.ANS.Multiline = true;
             this.ANS.Name = "ANS";
             this.ANS.Size = new System.Drawing.Size(380, 50);
@@ -113,7 +113,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.GhostWhite;
             this.button1.Font = new System.Drawing.Font("Eras Medium ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(220, 129);
+            this.button1.Location = new System.Drawing.Point(164, 125);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(64, 51);
             this.button1.TabIndex = 19;
@@ -125,7 +125,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.GhostWhite;
             this.button2.Font = new System.Drawing.Font("Eras Medium ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(290, 128);
+            this.button2.Location = new System.Drawing.Point(234, 124);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(64, 53);
             this.button2.TabIndex = 20;
@@ -137,7 +137,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.GhostWhite;
             this.button3.Font = new System.Drawing.Font("Eras Medium ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(360, 129);
+            this.button3.Location = new System.Drawing.Point(304, 125);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(64, 51);
             this.button3.TabIndex = 21;
@@ -149,7 +149,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.GhostWhite;
             this.button4.Font = new System.Drawing.Font("Eras Medium ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(220, 186);
+            this.button4.Location = new System.Drawing.Point(164, 182);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(64, 55);
             this.button4.TabIndex = 22;
@@ -161,7 +161,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.GhostWhite;
             this.button5.Font = new System.Drawing.Font("Eras Medium ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(290, 186);
+            this.button5.Location = new System.Drawing.Point(234, 182);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(64, 55);
             this.button5.TabIndex = 23;
@@ -173,7 +173,7 @@
             // 
             this.button6.BackColor = System.Drawing.Color.GhostWhite;
             this.button6.Font = new System.Drawing.Font("Eras Medium ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(360, 186);
+            this.button6.Location = new System.Drawing.Point(304, 182);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(64, 55);
             this.button6.TabIndex = 24;
@@ -185,7 +185,7 @@
             // 
             this.button7.BackColor = System.Drawing.Color.GhostWhite;
             this.button7.Font = new System.Drawing.Font("Eras Medium ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button7.Location = new System.Drawing.Point(220, 245);
+            this.button7.Location = new System.Drawing.Point(164, 241);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(64, 53);
             this.button7.TabIndex = 25;
@@ -197,7 +197,7 @@
             // 
             this.button8.BackColor = System.Drawing.Color.GhostWhite;
             this.button8.Font = new System.Drawing.Font("Eras Medium ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(290, 245);
+            this.button8.Location = new System.Drawing.Point(234, 241);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(64, 53);
             this.button8.TabIndex = 26;
@@ -209,7 +209,7 @@
             // 
             this.button9.BackColor = System.Drawing.Color.GhostWhite;
             this.button9.Font = new System.Drawing.Font("Eras Medium ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button9.Location = new System.Drawing.Point(360, 244);
+            this.button9.Location = new System.Drawing.Point(304, 240);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(64, 53);
             this.button9.TabIndex = 27;
@@ -221,7 +221,7 @@
             // 
             this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button10.Font = new System.Drawing.Font("Ebrima", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button10.Location = new System.Drawing.Point(220, 363);
+            this.button10.Location = new System.Drawing.Point(164, 359);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(380, 69);
             this.button10.TabIndex = 28;
@@ -233,7 +233,7 @@
             // 
             this.button11.BackColor = System.Drawing.Color.GhostWhite;
             this.button11.Font = new System.Drawing.Font("Eras Medium ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button11.Location = new System.Drawing.Point(290, 304);
+            this.button11.Location = new System.Drawing.Point(234, 300);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(64, 53);
             this.button11.TabIndex = 29;
@@ -245,7 +245,7 @@
             // 
             this.button12.BackColor = System.Drawing.Color.Orange;
             this.button12.Font = new System.Drawing.Font("Ebrima", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button12.Location = new System.Drawing.Point(360, 304);
+            this.button12.Location = new System.Drawing.Point(304, 300);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(64, 53);
             this.button12.TabIndex = 30;
@@ -257,7 +257,7 @@
             // 
             this.MJ.BackColor = System.Drawing.SystemColors.HighlightText;
             this.MJ.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.MJ.Location = new System.Drawing.Point(449, 30);
+            this.MJ.Location = new System.Drawing.Point(393, 26);
             this.MJ.Multiline = true;
             this.MJ.Name = "MJ";
             this.MJ.Size = new System.Drawing.Size(151, 36);
@@ -269,7 +269,7 @@
             // 
             this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.button13.Font = new System.Drawing.Font("Ebrima", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button13.Location = new System.Drawing.Point(220, 304);
+            this.button13.Location = new System.Drawing.Point(164, 300);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(64, 53);
             this.button13.TabIndex = 33;
@@ -283,7 +283,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(845, 497);
+            this.ClientSize = new System.Drawing.Size(727, 483);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.MJ);
             this.Controls.Add(this.button12);

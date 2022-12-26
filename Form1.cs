@@ -112,11 +112,11 @@ namespace Lab1
 
         private void textBox12_TextChanged(object sender, EventArgs e)
         {
-            if (ANS.Text.Length > 0)
-            {
-                ANS.Text = Convert.ToDouble(ANS.Text).ToString("#,###");
-                ANS.SelectionStart = ANS.Text.Length; 
-            }
+            //if (ANS.Text.Length > 0)
+            //{
+            //    ANS.Text = Convert.ToDouble(ANS.Text).ToString("n0");
+            //    ANS.SelectionStart = ANS.Text.Length;
+            //}
         }
         
 
@@ -184,22 +184,25 @@ namespace Lab1
             double input2 = Double.Parse(this.ANS.Text);
             double result = 0;
             this.MJ.Text = this.MJ.Text + "=";
+            
             if (this.oparation == "+") 
             {
-                this.ANS.Text = (input1 + input2).ToString("#,###.00");
+                result = input1 + input2;
             }
             else if (this.oparation == "-")
             {
-                this.ANS.Text = (input1 - input2).ToString("#,###.00");
+                result = input1 - input2; 
             }
             else if (this.oparation == "*")
             {
-                this.ANS.Text = (input1 * input2).ToString("#,###.00");
+                result = input1 * input2;
             }
             else if (this.oparation == "/")
             {
-                this.ANS.Text = (input1 / input2).ToString("#,###.00");
+                result = input1 / input2;
             }
+            this.ANS.Text = Convert.ToString(result);
+            this.ANS.Text = string.Format("{0:#,##0.#########}", double.Parse(this.ANS.Text));
         }
 
         private void button12_Click(object sender, EventArgs e)
