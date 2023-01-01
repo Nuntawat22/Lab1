@@ -56,9 +56,8 @@ namespace Lab1
         {
             this.input1 = Double.Parse(this.ANS.Text);
             this.ANS.Text = "";
-            this.MJ.Text = "";
             this.oparation = "-";
-            this.MJ.Text = "-";
+            this.MJ.Text = this.MJ.Text + "-";
 
         }
 
@@ -66,18 +65,16 @@ namespace Lab1
         {
             this.input1 = Double.Parse(this.ANS.Text);
             this.ANS.Text = "";
-            this.MJ.Text = "";
             this.oparation = "*";
-            this.MJ.Text = "*";
+            this.MJ.Text = this.MJ.Text + "*";
         }
 
         private void sum3_Click(object sender, EventArgs e)
         {
             this.input1 = Double.Parse(this.ANS.Text);
             this.ANS.Text = "";
-            this.MJ.Text = "";
             this.oparation = "/";
-            this.MJ.Text = "/";
+            this.MJ.Text = this.MJ.Text + "/";
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -231,6 +228,7 @@ namespace Lab1
         {
             this.ANS.Text = this.ANS.Text + "0";
             this.MJ.Text = this.MJ.Text + "0";
+            
         }
     }
 }
